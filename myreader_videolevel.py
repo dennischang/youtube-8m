@@ -3,7 +3,8 @@ from collections import Counter
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 
-video_record = "./youtube-8m-data/video_level/traina0.tfrecord"
+#video_record = "./youtube-8m-data/video_level/traina0.tfrecord"
+video_record = "./youtube-8m-output/testa0.tfrecord"
 
 def print_examples():
     label_mapping = pd.Series.from_csv('./label_names.csv', header=0).to_dict()
